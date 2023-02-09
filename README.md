@@ -11,6 +11,12 @@ az group create \
 --location $LOCATION
 
 
+
+
+
+
+
+
 STORAGE=metricsstorage$RANDOM
 
 az storage account create \
@@ -18,6 +24,14 @@ az storage account create \
     --sku Standard_LRS \
     --location $LOCATION \
     --resource-group $RESOURCEGROUP
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
